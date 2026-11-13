@@ -1,4 +1,5 @@
 import React from "react";
+import { StyleSheet } from "react-native";
 import {
   NavigationContainer,
   NavigationIndependentTree,
@@ -16,9 +17,9 @@ export default function App() {
         <Stack.Navigator
           initialRouteName="Home"
           screenOptions={{
-            headerStyle: {backgoundColor: "#075E54"},
+            headerStyle: { backgroundColor: "#075E54" },
             headerTintColor: "#FFFFFF",
-            headerTitleStyle: {fontWeight: "bold"},
+            headerTitleStyle: { fontWeight: "bold" },
           }}
         >
           <Stack.Screen
